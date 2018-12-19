@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Required meta tags  -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<title>System Task</title>
+		
+		<!-- Bootstrap CSS -->
+		<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+		
+		<!-- <script src="scipts/jquery-3.2.1.slim.min.js" ></script>
+		<script src="scipts/bootstrap.min.js"></script> --> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<style>
+			.nav-tabs>li>a {
+			margin-right: 0px; 
+			line-height: 1.42857143;
+			border: 1px solid transparent;
+			border-radius: 4px 4px 0 0;
+		}
+		.nav>li>a {
+			position: relative;
+			display: block;
+			padding: 5px 20px;
+		}
+		.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+			color: #555;
+			cursor: pointer;
+			background-color: #84c525;
+			border: 1px solid #84c525;
+			border-bottom-color: transparent;
+		}
+		.nav-tabs {
+			border-bottom: 1px solid #ddd;
+			margin-top: 15px;
+		}
+		.tab-pane{
+			min-height: 267px;
+		}
+		.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+			padding: 8px;
+			line-height: 1.7;
+			vertical-align: top;
+			border-top: none; 
+		}
+		.tab-content>.active {
+			display: block;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.modal-header{
+			background-color: #000;
+			color: #fff;
+		}
+		.close {
+			opacity: 1;
+		}
+		.close:focus, .close:hover {
+			color: #000;
+			text-decoration: none;
+			cursor: pointer;
+			filter: alpha(opacity=50);
+			opacity: 1;
+		}
+		.modal-body {
+			position: relative;
+			padding: 15px;
+			line-height: 34px;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<img src="images/logo.png"/>
+			</div>
+			<div class="wrapper">
+				<div class="banner">
+					<img src="images/Bitmap.png" class="img-responsive"/>
+				</div>
+				
+				<div class="row content" style="margin-right: 0px; margin-left: 0px;">
+					<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="organization">
+						<div class="about message">
+							<h4>About Organization</h4>
+							<textarea rows="5" cols="32" style="overflow:auto;resize:none; width: 99%;"></textarea>
+							<h4>Canine Therapy</h4>
+							<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+							
+							<p data-toggle="collapse" data-target="#demo" style="color: #3c9cdd; cursor: pointer; font-weight: bold;"><i class="fa fa-plus" aria-hidden="true" style="margin-right: 10px;"></i>More Info</p>
+							
+							<div id="demo" class="collapse">
+								<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+							  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+							  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+							  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+							</div>
+						</div>
+						<div class="about message">
+							<h4>About Organization</h4>
+							<div style="display: flex; margin-bottom: 20px; align-items: center;">
+								<textarea rows="3" cols="15" style="overflow:auto;resize:none; margin-right: 10px;"></textarea>
+								<p>Neque porro quisquam est qui dolorem ipsum</p>
+							</div>
+							<div style="display: flex; margin-bottom: 20px; align-items: center;">
+								<textarea rows="3" cols="15" style="overflow:auto;resize:none; margin-right: 10px;"></textarea>
+								<p>Neque porro quisquam est qui dolorem ipsum</p>
+							</div>
+						</div>
+					</div>
+					</section>
+					
+					<section class="col-lg-6 col-md-6 col-sm-6 col-xs-12 message">
+						
+						<h2>Handbooks for Children</h2>
+						<div>
+							<button value="One time Event" class="button">One time Event</button>
+							<h5 style="float: right; color: #7ecbf1;"><i class="fa fa-print print-icon" aria-hidden="true"></i>Print</h5>
+						</div>
+						
+						<table style="width: 100%; " cellpadding="15" class="table">
+							<tr>
+								<td>Time: </td>
+								<td>Dec 20, 3:00 PM to 5:00 PM</td>
+							</tr>
+							<tr>
+								<td>Location: </td>
+								<td>Madhapur<br/>Hyderabad</td>
+							</tr>
+							
+						</table>
+						
+						<ul class="nav nav-tabs">
+							<li class="active"><a data-toggle="tab" href="#home">Info</a></li>
+							<li><a data-toggle="tab" href="#menu1">Photos</a></li>
+							<li><a data-toggle="tab" href="#menu2">Videos</a></li>
+						</ul>
+						
+						<div class="tab-content">
+							<div id="home" class="tab-pane fade in active">
+								  <h3>Info</h3>
+								  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								</div>
+							<div id="menu1" class="tab-pane fade">
+							  <h3>Photos</h3>
+							  <input type="file" id="imgupload" style="display:none"/> 
+							  <img src="images/whats01-phone.jpg" id="OpenImgUpload" style="margin: 0 auto; cursor: pointer;"/>
+							</div>
+							<div id="menu2" class="tab-pane fade">
+							    <h3>Videos</h3>
+							    <video width="320" height="240" controls><source src="images/movie.mp4" type="video/mp4">Your browser does not support the video tag.
+							    </video>
+							</div>
+							
+						</div>
+					</section>
+					
+					<section class="col-lg-3 col-md-3 col-sm-6 col-xs-12 message">
+					
+						<button value="Apply now" class="Apply_button submit_buttons" data-toggle="modal" data-target="#myModal">Apply now</button><br>
+						<button value="Contact us" class="contact_button submit_buttons">Contact us</button>
+						
+						<div class="items">
+							<p>Volunteer oppurtunity for:</p>
+							<p><i class="fa fa-user" aria-hidden="true"></i> Individuals <br/></p>
+							<p><i class="fa fa-users" aria-hidden="true"></i>Groups</p>
+							<p>Share Oppurtunity</p>
+							<p><i class="fa fa-google-plus-square social" aria-hidden="true"></i><i class="fa fa-facebook-square social" aria-hidden="true"></i><i class="fa fa-twitter-square social" aria-hidden="true"></i></p>
+							<p>Who's attending?<br><input type="text" style="border-radius: 5px; border: 1px solid #bbb;"></p>
+							<div style="display: flex; margin-bottom: 20px; align-items: center;">
+								<textarea rows="2" cols="5" style="overflow:auto;resize:none; margin-right: 10px;"></textarea>
+								<p>Neque porro </p>
+							</div>
+							<div style="display: flex; margin-bottom: 20px; align-items: center;">
+								<textarea rows="2" cols="5" style="overflow:auto;resize:none; margin-right: 10px;"></textarea>
+								<p>Neque porro </p>
+							</div>
+							
+							<p data-toggle="collapse" data-target="#expand" style="color: #3c9cdd; cursor: pointer; font-weight: bold;"><i class="fa fa-plus" aria-hidden="true" style="margin-right: 10px;"></i>More Info</p>
+							
+							<div id="expand" class="collapse">
+							
+								<div style="display: flex; margin-bottom: 20px; align-items: center;">
+								<textarea rows="2" cols="5" style="overflow:auto;resize:none; margin-right: 10px;"></textarea>
+								<p>Neque porro </p>
+							</div>
+							<div style="display: flex; margin-bottom: 20px; align-items: center;">
+								<textarea rows="2" cols="5" style="overflow:auto;resize:none; margin-right: 10px;"></textarea>
+								<p>Neque porro </p>
+							</div>
+							<div style="display: flex; margin-bottom: 20px; align-items: center;">
+								<textarea rows="2" cols="5" style="overflow:auto;resize:none; margin-right: 10px;"></textarea>
+								<p>Neque porro </p>
+							</div>
+							</div>
+							
+							<div class="modal fade" id="myModal" role="dialog">
+							<div class="modal-dialog">
+							
+							  <!-- Modal content-->
+							  <div class="modal-content">
+								<div class="modal-header">
+								  <button type="button" class="close" data-dismiss="modal" style="color: #fff;">&times;</button>
+								  <h4 class="modal-title">Please complete below details requested by volunteer</h4>
+								</div>
+								<div class="modal-body">
+									<p>General Information</p>
+								  <label>Driving Liscence:</label>
+								  <input type="text" placeholder="General Information"><br>
+								  <label>Field-type:</label>
+								  <input type="text" placeholder="Ex: 2">
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+								  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							  </div>
+							  
+							</div>
+						  </div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<script>
+			$('#OpenImgUpload').click(function(){ $('#imgupload').trigger('click'); });
+		</script>
+		
+	</body>
+</html>
