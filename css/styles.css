@@ -2,11 +2,11 @@
 	box-model: border-box;
 	font-family: system-ui;
 }
-.organization{
+/* .organization{
 	position: absolute;
 	top: -110px;
 	margin: 16px;
-}
+} */
 .grid-items{
 	display: flex;
 }
